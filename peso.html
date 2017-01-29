@@ -1,0 +1,63 @@
+
+
+<Html>
+<Head>
+
+<title>
+Meu primeiro Html
+</title>
+
+<script>
+
+function validar()
+{
+alert('Voce digitou Nome=' + nome.value )
+
+alert('Voce digitou Altura=' + altura.value )
+
+alert('Voce digitou Peso=' + peso.value )
+
+for (x=0 ;x < sexo.length; x++)
+{
+	if (sexo[x].checked==true)
+		alert('Voce digitou Sexo=' + sexo[0].value )
+
+}
+
+
+}
+</script>
+
+</Head>
+
+<body>
+
+Ola <br/>
+Digite seu nome<br/>
+
+<input type=text id=nome><br/>
+
+Digite sua altura<br/>
+
+<input type=text id=altura><br/>
+
+Digite seu Peso<br/>
+<input type=text id=peso><br/>
+
+Sexo<br/>
+<Input type=radio id=sexo name=sexo value="M">Masculino
+<Input type=radio id=sexo name=sexo value="F">Feminino
+<Input type=radio id=sexo name=sexo value="G">Gay
+<br/>
+<br/>
+<input type=button value="enviar" onclick='validar()'  >
+
+
+ 
+
+ 
+</body>
+
+<Html>
+
+
